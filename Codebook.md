@@ -24,6 +24,82 @@ For this project:
   4. Appropriately labels the data set with descriptive variable names. 
   5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-See my [readme file](https://raw.githubusercontent.com/shlake/CleanDataProject/master/README.md) for progam information. The resulting data file includes the folloiwng variables:
+See my [readme file](https://raw.githubusercontent.com/shlake/CleanDataProject/raw/master/README.md) for progam information. The resulting data file includes the folloiwng variables:
+
+###Variables
+
+|Var Name|Definition|Comments/Units|
+|Subject_ID|Identifier of the subject who carried out the experiment|Unique Integer| 
+|Activity_Code|6 activities coded with the labels - defined on next row| 1 = Walking, 2=Walking_upstairs, 3=walking_downstairs, 4=Sitting, 5=standing, 6=laying|
+|Activity_Label|text labels for the above codes||
+tBodyAccmeanX
+tBodyAccmeanY
+tBodyAccmeanZ
+tBodyAccstdX
+tBodyAccstdY
+tBodyAccstdZ
+tGravityAccmeanX
+tGravityAccmeanY
+tGravityAccmeanZ
+tGravityAccstdX
+tGravityAccstdY
+tGravityAccstdZ
+tBodyAccJerkmeanX
+tBodyAccJerkmeanY
+tBodyAccJerkmeanZ
+tBodyAccJerkstdX
+tBodyAccJerkstdY
+tBodyAccJerkstdZ
+tBodyGyromeanX
+tBodyGyromeanY
+tBodyGyromeanZ
+tBodyGyrostdX
+tBodyGyrostdY
+tBodyGyrostdZ
+tBodyGyroJerkmeanX
+tBodyGyroJerkmeanY
+tBodyGyroJerkmeanZ
+tBodyGyroJerkstdX
+tBodyGyroJerkstdY
+tBodyGyroJerkstdZ
+tBodyAccMagmean
+tBodyAccMagstd
+tGravityAccMagmean
+tGravityAccMagstd
+tBodyAccJerkMagmean
+tBodyAccJerkMagstd
+tBodyGyroMagmean
+tBodyGyroMagstd
+tBodyGyroJerkMagmean
+tBodyGyroJerkMagstd
+fBodyAccmeanX
+fBodyAccmeanY
+fBodyAccmeanZ
+fBodyAccstdX
+fBodyAccstdY
+fBodyAccstdZ
+fBodyAccJerkmeanX
+fBodyAccJerkmeanY
+fBodyAccJerkmeanZ
+fBodyAccJerkstdX
+fBodyAccJerkstdY
+fBodyAccJerkstdZ
+fBodyGyromeanX
+fBodyGyromeanY
+fBodyGyromeanZ
+fBodyGyrostdX
+fBodyGyrostdY
+fBodyGyrostdZ
+fBodyAccMagmean
+fBodyAccMagstd
+fBodyBodyAccJerkMagmean
+fBodyBodyAccJerkMagstd
+fBodyBodyGyroMagmean
+fBodyBodyGyroMagstd
+fBodyBodyGyroJerkMagmean
+fBodyBodyGyroJerkMagstd
 
 
+**Citation Request:**
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.
