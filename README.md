@@ -3,11 +3,11 @@
 
 This Repository contains:
 
-*README.md - this file
-*Codebook.md - for the datafile tidyTable.txt
-*tidyTable.txt - tab-delimited file tidy'd up using the R-script run_analysis.R
-*groupTidyTable.txt - tab-delimited file w/ the average of each variable for each activity and each subject
-*run_analysis.R - R script that created the tidy tables and explained below:
+* README.md - this file
+* Codebook.md - for the datafile tidyTable.txt
+* tidyTable.txt - tab-delimited file tidy'd up using the R-script run_analysis.R
+* groupTidyTable.txt - tab-delimited file w/ the average of each variable for each activity and each subject
+* run_analysis.R - R script that created the tidy tables and explained below:
 
 ##run_analysis.R does the following:
 
