@@ -1,6 +1,5 @@
 
-
-## project code snipits
+## project code 
 #read files
 trainXTable <- read.table("train/X_train.txt")
 trainYTable <- read.table("train/y_train.txt")
@@ -50,5 +49,14 @@ keepFeatures$V2 <- gsub("-","", keepFeatures$V2)
 ## Give columns "real" names
 colnames(comboTable) <- c("Subject_ID", "Activity_Code", "Activity_Label", keepFeatures$V2)
 
-##Creates a second, independent tidy data set 
+##Creates a second, independent group tidy data set 
 ##with the average of each variable for each activity and each subject. 
+
+
+groupTidyTable <- aggregate(tidyTable[4:69], list(Subject_ID = tidyTable$Subject_ID, Activity = tidyTable$Activity_Code), mean)
+
+
+
+## write out table (starting w/ col. 2 because of thes line numbers)
+write.csv(groupTidyTable, "groupTidyTable.csv", row.names=FALSE)
+
