@@ -51,20 +51,18 @@ tBodyAccJerkmeanZ|gravity acceleration w/jerk signal obtained by subtracting the
 tBodyAccJerkstdX|gravity acceleration w/jerk signal obtained by subtracting the gravity from the total acceleration, standard deviation, X axis| standard gravity units “g”|
 tBodyAccJerkstdY|gravity acceleration w/jerk signal obtained by subtracting the gravity from the total acceleration, standard deviation, Y axis| standard gravity units “g”|
 tBodyAccJerkstdZ|gravity acceleration w/jerk signal obtained by subtracting the gravity from the total acceleration, standard deviation, Z axis| standard gravity units “g”|
-
-tBodyGyromeanX
-tBodyGyromeanY
-tBodyGyromeanZ
-tBodyGyrostdX
-tBodyGyrostdY
-tBodyGyrostdZ
-
-tBodyGyroJerkmeanX
-tBodyGyroJerkmeanY
-tBodyGyroJerkmeanZ
-tBodyGyroJerkstdX
-tBodyGyroJerkstdY
-tBodyGyroJerkstdZ
+tBodyGyromeanX|angular velocity vector measured by the gyroscope for each window sample, mean, X axis| units: radians/second|
+tBodyGyromeanY|angular velocity vector measured by the gyroscope for each window sample, mean, Y axis| units: radians/second|
+tBodyGyromeanZ|angular velocity vector measured by the gyroscope for each window sample, mean, Z axis| units: radians/second|
+tBodyGyrostdX|angular velocity vector measured by the gyroscope for each window sample, standard deviation, X axis| units: radians/second|
+tBodyGyrostdY|angular velocity vector measured by the gyroscope for each window sample, standard deviation, Y axis| units: radians/second|
+tBodyGyrostdZ|angular velocity vector measured by the gyroscope for each window sample, standard deviation, Y axis| units: radians/second|
+tBodyGyroJerkmeanX|angular velocity vector measured by the gyroscope for each window sample, with jerk, mean, X axis| units: radians/second|
+tBodyGyroJerkmeanY|angular velocity vector measured by the gyroscope for each window sample, with jerk, mean, Y axis| units: radians/second|
+tBodyGyroJerkmeanZ|angular velocity vector measured by the gyroscope for each window sample, with jerk, mean, Z axis| units: radians/second|
+tBodyGyroJerkstdX|angular velocity vector measured by the gyroscope for each window sample, with jerk, standard deviation, X axis| units: radians/second|
+tBodyGyroJerkstdY|angular velocity vector measured by the gyroscope for each window sample, with jerk, standard deviation, Y axis| units: radians/second|
+tBodyGyroJerkstdZ|angular velocity vector measured by the gyroscope for each window sample, with jerk, standard deviation, Z axis| units: radians/second|
 
 tBodyAccMagmean
 tBodyAccMagstd
