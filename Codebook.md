@@ -33,20 +33,21 @@ See my [readme file](https://github.com/shlake/CleanDataProject/raw/master/READM
 |Subject_ID|Identifier of the subject who carried out the experiment|Unique Integer| 
 |Activity_Code|6 activities coded with the labels - defined on next row| 1 = Walking, 2=Walking_upstairs, 3=walking_downstairs, 4=Sitting, 5=standing, 6=laying|
 |Activity_Label|text labels for the above codes||
+|tBodyAccmeanX|body acceleration signal obtained by subtracting the gravity from the total acceleration, mean X axis| standard gravity units “g”|
+|tBodyAccmeanY|body acceleration signal obtained by subtracting the gravity from the total acceleration, mean Y axis| standard gravity units “g”|
+|tBodyAccmeanZ|body acceleration signal obtained by subtracting the gravity from the total acceleration, mean Z axis| standard gravity units “g”|
+|tBodyAccstdX|body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, X axis| standard gravity units “g”|
+|tBodyAccstdY|body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Y axis| standard gravity units “g”|
+|tBodyAccstdZ|body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Z axis| standard gravity units “g”|
 
-tBodyAccmeanX
-
-tBodyAccmeanY
-tBodyAccmeanZ
-tBodyAccstdX
-tBodyAccstdY
-tBodyAccstdZ
 tGravityAccmeanX
 tGravityAccmeanY
 tGravityAccmeanZ
 tGravityAccstdX
 tGravityAccstdY
 tGravityAccstdZ
+
+
 tBodyAccJerkmeanX
 tBodyAccJerkmeanY
 tBodyAccJerkmeanZ
