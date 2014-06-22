@@ -40,32 +40,33 @@ See my [readme file](https://github.com/shlake/CleanDataProject/raw/master/READM
 |tBodyAccstdY|body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Y axis| standard gravity units “g”|
 |tBodyAccstdZ|body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Z axis| standard gravity units “g”|
 
-tGravityAccmeanX
-tGravityAccmeanY
-tGravityAccmeanZ
-tGravityAccstdX
-tGravityAccstdY
-tGravityAccstdZ
+tGravityAccmeanX|gravity acceleration signal obtained by subtracting the gravity from the total acceleration, mean, X axis| standard gravity units “g”|
+tGravityAccmeanY|gravity acceleration signal obtained by subtracting the gravity from the total acceleration, mean, Y axis| standard gravity units “g”|
+tGravityAccmeanZ|gravity acceleration signal obtained by subtracting the gravity from the total acceleration, mean, Z axis| standard gravity units “g”|
+tGravityAccstdX|gravity acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, X axis| standard gravity units “g”|
+tGravityAccstdY|gravity acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Y axis| standard gravity units “g”|
+tGravityAccstdZ|gravity acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Z axis| standard gravity units “g”|
+tBodyAccJerkmeanX|gravity acceleration w/jerk signal obtained by subtracting the gravity from the total acceleration, mean, X axis| standard gravity units “g”|
+tBodyAccJerkmeanY|gravity acceleration w/jerk signal obtained by subtracting the gravity from the total acceleration, mean, Y axis| standard gravity units “g”|
+tBodyAccJerkmeanZ|gravity acceleration w/jerk signal obtained by subtracting the gravity from the total acceleration, mean, Z axis| standard gravity units “g”|
+tBodyAccJerkstdX|gravity acceleration w/jerk signal obtained by subtracting the gravity from the total acceleration, standard deviation, X axis| standard gravity units “g”|
+tBodyAccJerkstdY|gravity acceleration w/jerk signal obtained by subtracting the gravity from the total acceleration, standard deviation, Y axis| standard gravity units “g”|
+tBodyAccJerkstdZ|gravity acceleration w/jerk signal obtained by subtracting the gravity from the total acceleration, standard deviation, Z axis| standard gravity units “g”|
 
-
-tBodyAccJerkmeanX
-tBodyAccJerkmeanY
-tBodyAccJerkmeanZ
-tBodyAccJerkstdX
-tBodyAccJerkstdY
-tBodyAccJerkstdZ
 tBodyGyromeanX
 tBodyGyromeanY
 tBodyGyromeanZ
 tBodyGyrostdX
 tBodyGyrostdY
 tBodyGyrostdZ
+
 tBodyGyroJerkmeanX
 tBodyGyroJerkmeanY
 tBodyGyroJerkmeanZ
 tBodyGyroJerkstdX
 tBodyGyroJerkstdY
 tBodyGyroJerkstdZ
+
 tBodyAccMagmean
 tBodyAccMagstd
 tGravityAccMagmean
@@ -74,6 +75,7 @@ tBodyAccJerkMagmean
 tBodyAccJerkMagstd
 tBodyGyroMagmean
 tBodyGyroMagstd
+
 tBodyGyroJerkMagmean
 tBodyGyroJerkMagstd
 fBodyAccmeanX
@@ -82,18 +84,21 @@ fBodyAccmeanZ
 fBodyAccstdX
 fBodyAccstdY
 fBodyAccstdZ
+
 fBodyAccJerkmeanX
 fBodyAccJerkmeanY
 fBodyAccJerkmeanZ
 fBodyAccJerkstdX
 fBodyAccJerkstdY
 fBodyAccJerkstdZ
+
 fBodyGyromeanX
 fBodyGyromeanY
 fBodyGyromeanZ
 fBodyGyrostdX
 fBodyGyrostdY
 fBodyGyrostdZ
+
 fBodyAccMagmean
 fBodyAccMagstd
 fBodyBodyAccJerkMagmean
