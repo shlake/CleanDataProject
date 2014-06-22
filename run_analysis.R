@@ -1,4 +1,3 @@
-setwd("/Users/sah/Documents/Courses/DataScience-Coursera-JHU/Clean-Data/UCI HAR Dataset"
 
 
 ## project code snipits
