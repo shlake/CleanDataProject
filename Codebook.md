@@ -29,10 +29,13 @@ See my [readme file](https://raw.githubusercontent.com/shlake/CleanDataProject/r
 ###Variables
 
 |Var Name|Definition|Comments/Units|
+|--------|----------|--------------|
 |Subject_ID|Identifier of the subject who carried out the experiment|Unique Integer| 
 |Activity_Code|6 activities coded with the labels - defined on next row| 1 = Walking, 2=Walking_upstairs, 3=walking_downstairs, 4=Sitting, 5=standing, 6=laying|
 |Activity_Label|text labels for the above codes||
+
 tBodyAccmeanX
+
 tBodyAccmeanY
 tBodyAccmeanZ
 tBodyAccstdX
