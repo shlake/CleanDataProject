@@ -24,7 +24,7 @@ For this project:
   4. Appropriately labels the data set with descriptive variable names. 
   5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-See my [readme file](https://github.com/shlake/CleanDataProject/blog/master/README.mdraw=TRUE) for progam information. The resulting data file includes the folloiwng variables:
+See my [readme file](https://github.com/shlake/CleanDataProject/raw/master/README.md) for progam information. The resulting data file includes the folloiwng variables:
 
 ###Variables
 
