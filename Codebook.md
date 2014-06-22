@@ -39,7 +39,6 @@ See my [readme file](https://github.com/shlake/CleanDataProject/raw/master/READM
 |tBodyAccstdX|body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, X axis| standard gravity units “g”|
 |tBodyAccstdY|body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Y axis| standard gravity units “g”|
 |tBodyAccstdZ|body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Z axis| standard gravity units “g”|
-
 tGravityAccmeanX|gravity acceleration signal obtained by subtracting the gravity from the total acceleration, mean, X axis| standard gravity units “g”|
 tGravityAccmeanY|gravity acceleration signal obtained by subtracting the gravity from the total acceleration, mean, Y axis| standard gravity units “g”|
 tGravityAccmeanZ|gravity acceleration signal obtained by subtracting the gravity from the total acceleration, mean, Z axis| standard gravity units “g”|
