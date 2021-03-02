@@ -1,5 +1,5 @@
 
-#Clean-Data Final Project
+# Clean-Data Final Project
 
 This Repository contains:
 
@@ -9,7 +9,7 @@ This Repository contains:
 * groupTidyTable.txt - tab-delimited file w/ the average of each variable for each activity and each subject
 * run_analysis.R - R script that created the tidy tables and explained below:
 
-##run_analysis.R does the following:
+## run_analysis.R does the following:
 
 Files from the current directory:
 
