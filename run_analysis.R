@@ -1,5 +1,6 @@
 
 ## project code 
+## comment
 #read files
 trainXTable <- read.table("train/X_train.txt")
 trainYTable <- read.table("train/y_train.txt")
